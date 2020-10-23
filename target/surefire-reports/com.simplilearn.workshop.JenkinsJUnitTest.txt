@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.simplilearn.workshop.JenkinsJUnitTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 21.881 s <<< FAILURE! - in com.simplilearn.workshop.JenkinsJUnitTest
+com.simplilearn.workshop.JenkinsJUnitTest.testCaseFailed  Time elapsed: 16.138 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //form[@id='failed case']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'ubuntu1804', ip: '172.17.0.31', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-139-generic', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 14135, moz:profile: /tmp/rust_mozprofileI1AYiW, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-139-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1c60c74e-5230-4bbc-b911-51395fbf383a
+*** Element info: {Using=xpath, value=//form[@id='failed case']}
+	at com.simplilearn.workshop.JenkinsJUnitTest.testCaseFailed(JenkinsJUnitTest.java:51)
+

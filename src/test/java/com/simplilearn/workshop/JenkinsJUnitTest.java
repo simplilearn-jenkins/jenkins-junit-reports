@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 
-public class JenkinsJunitDemo
+public class JenkinsJUnitTest
 {
     private static String Base_Url = "https://www.facebook.com";
     private WebDriver driver;

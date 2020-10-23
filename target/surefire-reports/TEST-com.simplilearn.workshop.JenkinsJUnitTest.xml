@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.simplilearn.workshop.JenkinsJUnitTest" time="21.881" tests="3" errors="1" skipped="1" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/labsuser/student/jenkins-junit-reports/target/test-classes:/home/labsuser/student/jenkins-junit-reports/target/classes:/home/labsuser/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/labsuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-java/3.10.0/selenium-java-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.10.0/selenium-chrome-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.10.0/selenium-edge-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.10.0/selenium-firefox-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.10.0/selenium-ie-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.10.0/selenium-opera-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.10.0/selenium-safari-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-support/3.10.0/selenium-support-3.10.0.jar:/home/labsuser/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/labsuser/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/labsuser/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/labsuser/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/labsuser/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/labsuser/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/labsuser/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/labsuser/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/labsuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/labsuser/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/labsuser/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/labsuser/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/labsuser/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/labsuser/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/labsuser/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/labsuser/student/jenkins-junit-reports/target/surefire/surefirebooter8952700190535469855.jar /home/labsuser/student/jenkins-junit-reports/target/surefire 2020-10-23T15-55-32_021-jvmRun1 surefire8403422701642846498tmp surefire_07219538145739437472tmp"/>
+    <property name="surefire.test.class.path" value="/home/labsuser/student/jenkins-junit-reports/target/test-classes:/home/labsuser/student/jenkins-junit-reports/target/classes:/home/labsuser/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/labsuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-java/3.10.0/selenium-java-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.10.0/selenium-chrome-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.10.0/selenium-edge-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.10.0/selenium-firefox-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.10.0/selenium-ie-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.10.0/selenium-opera-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.10.0/selenium-safari-driver-3.10.0.jar:/home/labsuser/.m2/repository/org/seleniumhq/selenium/selenium-support/3.10.0/selenium-support-3.10.0.jar:/home/labsuser/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/labsuser/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/labsuser/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/labsuser/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/labsuser/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/labsuser/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/labsuser/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/labsuser/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/labsuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/labsuser/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/labsuser/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/labsuser/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/labsuser/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/labsuser/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/labsuser/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/labsuser"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/labsuser/student/jenkins-junit-reports"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/labsuser/student/jenkins-junit-reports/target/surefire/surefirebooter8952700190535469855.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_265-8u265-b01-0ubuntu2~18.04-b01"/>
+    <property name="user.name" value="labsuser"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.4.0-139-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/labsuser/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="user.dir" value="/home/labsuser/student/jenkins-junit-reports"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.265-b01"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCaseFailed" classname="com.simplilearn.workshop.JenkinsJUnitTest" time="16.138">
+    <error message="Unable to locate element: //form[@id=&apos;failed case&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;&#10;System info: host: &apos;ubuntu1804&apos;, ip: &apos;172.17.0.31&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-139-generic&apos;, java.version: &apos;1.8.0_265&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 14135, moz:profile: /tmp/rust_mozprofileI1AYiW, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-139-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1c60c74e-5230-4bbc-b911-51395fbf383a&#10;*** Element info: {Using=xpath, value=//form[@id=&apos;failed case&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //form[@id='failed case']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'ubuntu1804', ip: '172.17.0.31', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-139-generic', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 74.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200309095159, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 14135, moz:profile: /tmp/rust_mozprofileI1AYiW, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-139-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1c60c74e-5230-4bbc-b911-51395fbf383a
+*** Element info: {Using=xpath, value=//form[@id='failed case']}
+	at com.simplilearn.workshop.JenkinsJUnitTest.testCaseFailed(JenkinsJUnitTest.java:51)
+]]></error>
+    <system-err><![CDATA[1603468532906	geckodriver	INFO	Listening on 127.0.0.1:20388
+1603468533069	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileI1AYiW"
+*** You are running in headless mode.
+1603468533369	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1603468533777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603468533777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603468533777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603468533778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1603468535182	Marionette	INFO	Listening on port 39775
+1603468535278	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 23, 2020 3:55:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/9uUhEN-sUI-.js?_nc_x=Ij3Wp8lg5Kz, line 18: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/9uUhEN-sUI-.js?_nc_x=Ij3Wp8lg5Kz, line 18: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/9uUhEN-sUI-.js?_nc_x=Ij3Wp8lg5Kz, line 18: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yC/l/en_US/9uUhEN-sUI-.js?_nc_x=Ij3Wp8lg5Kz, line 18: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1603468546801	Marionette	INFO	Stopped listening on port 39775
+]]></system-err>
+  </testcase>
+  <testcase name="testCasePassed" classname="com.simplilearn.workshop.JenkinsJUnitTest" time="5.705"/>
+  <testcase name="testCaseIgnored" classname="com.simplilearn.workshop.JenkinsJUnitTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
